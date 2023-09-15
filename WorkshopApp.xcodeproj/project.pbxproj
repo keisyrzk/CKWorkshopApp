@@ -26,6 +26,8 @@
 		CCD03E3F2AB44BB1003E3579 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E3E2AB44BB1003E3579 /* Services.swift */; };
 		CCD03E412AB45505003E3579 /* PlanetContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E402AB45505003E3579 /* PlanetContainer.swift */; };
 		CCD03E432AB45D55003E3579 /* EnumParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E422AB45D55003E3579 /* EnumParser.swift */; };
+		CCF5728E2AB465A100A4F974 /* PlanetServicesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF5728D2AB465A100A4F974 /* PlanetServicesType.swift */; };
+		CCF572902AB465B100A4F974 /* PeopleServicesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF5728F2AB465B100A4F974 /* PeopleServicesType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		CCD03E3E2AB44BB1003E3579 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		CCD03E402AB45505003E3579 /* PlanetContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetContainer.swift; sourceTree = "<group>"; };
 		CCD03E422AB45D55003E3579 /* EnumParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumParser.swift; sourceTree = "<group>"; };
+		CCF5728D2AB465A100A4F974 /* PlanetServicesType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetServicesType.swift; sourceTree = "<group>"; };
+		CCF5728F2AB465B100A4F974 /* PeopleServicesType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleServicesType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 				CCD03E332AB44AD6003E3579 /* ServiceCategory.swift */,
 				CCD03E3A2AB44B8E003E3579 /* PeopleServices.swift */,
 				CCD03E3C2AB44B9C003E3579 /* PlanetServices.swift */,
+				CCF5728C2AB4658E00A4F974 /* Types */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -136,6 +141,15 @@
 				CCD03E132AB43FEA003E3579 /* Main.storyboard */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		CCF5728C2AB4658E00A4F974 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				CCF5728D2AB465A100A4F974 /* PlanetServicesType.swift */,
+				CCF5728F2AB465B100A4F974 /* PeopleServicesType.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +229,7 @@
 				CCD03E122AB43FEA003E3579 /* ViewController.swift in Sources */,
 				CCD03E3D2AB44B9C003E3579 /* PlanetServices.swift in Sources */,
 				CCD03E0E2AB43FEA003E3579 /* AppDelegate.swift in Sources */,
+				CCF5728E2AB465A100A4F974 /* PlanetServicesType.swift in Sources */,
 				CCD03E2E2AB44A5D003E3579 /* ServiceProtocol.swift in Sources */,
 				CCD03E3B2AB44B8E003E3579 /* PeopleServices.swift in Sources */,
 				CCD03E2A2AB44A3D003E3579 /* Planet.swift in Sources */,
@@ -224,6 +239,7 @@
 				CCD03E432AB45D55003E3579 /* EnumParser.swift in Sources */,
 				CCD03E3F2AB44BB1003E3579 /* Services.swift in Sources */,
 				CCD03E2C2AB44A4E003E3579 /* Gender.swift in Sources */,
+				CCF572902AB465B100A4F974 /* PeopleServicesType.swift in Sources */,
 				CCD03E412AB45505003E3579 /* PlanetContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
