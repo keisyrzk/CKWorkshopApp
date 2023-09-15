@@ -18,8 +18,6 @@
 		CCD03E2A2AB44A3D003E3579 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E292AB44A3D003E3579 /* Planet.swift */; };
 		CCD03E2C2AB44A4E003E3579 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E2B2AB44A4E003E3579 /* Gender.swift */; };
 		CCD03E2E2AB44A5D003E3579 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E2D2AB44A5D003E3579 /* ServiceProtocol.swift */; };
-		CCD03E302AB44AA1003E3579 /* PeopleServicesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E2F2AB44AA1003E3579 /* PeopleServicesType.swift */; };
-		CCD03E322AB44ABB003E3579 /* PlanetServicesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E312AB44ABB003E3579 /* PlanetServicesType.swift */; };
 		CCD03E342AB44AD6003E3579 /* ServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E332AB44AD6003E3579 /* ServiceCategory.swift */; };
 		CCD03E362AB44B30003E3579 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E352AB44B30003E3579 /* ServiceError.swift */; };
 		CCD03E382AB44B4D003E3579 /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD03E372AB44B4D003E3579 /* ServiceResponse.swift */; };
@@ -44,8 +42,6 @@
 		CCD03E292AB44A3D003E3579 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		CCD03E2B2AB44A4E003E3579 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		CCD03E2D2AB44A5D003E3579 /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
-		CCD03E2F2AB44AA1003E3579 /* PeopleServicesType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleServicesType.swift; sourceTree = "<group>"; };
-		CCD03E312AB44ABB003E3579 /* PlanetServicesType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetServicesType.swift; sourceTree = "<group>"; };
 		CCD03E332AB44AD6003E3579 /* ServiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
 		CCD03E352AB44B30003E3579 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		CCD03E372AB44B4D003E3579 /* ServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
@@ -128,8 +124,6 @@
 				CCD03E332AB44AD6003E3579 /* ServiceCategory.swift */,
 				CCD03E3A2AB44B8E003E3579 /* PeopleServices.swift */,
 				CCD03E3C2AB44B9C003E3579 /* PlanetServices.swift */,
-				CCD03E2F2AB44AA1003E3579 /* PeopleServicesType.swift */,
-				CCD03E312AB44ABB003E3579 /* PlanetServicesType.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -227,12 +221,10 @@
 				CCD03E382AB44B4D003E3579 /* ServiceResponse.swift in Sources */,
 				CC8B3F692AB4641800318BB2 /* ViewModel.swift in Sources */,
 				CCD03E102AB43FEA003E3579 /* SceneDelegate.swift in Sources */,
-				CCD03E302AB44AA1003E3579 /* PeopleServicesType.swift in Sources */,
 				CCD03E432AB45D55003E3579 /* EnumParser.swift in Sources */,
 				CCD03E3F2AB44BB1003E3579 /* Services.swift in Sources */,
 				CCD03E2C2AB44A4E003E3579 /* Gender.swift in Sources */,
 				CCD03E412AB45505003E3579 /* PlanetContainer.swift in Sources */,
-				CCD03E322AB44ABB003E3579 /* PlanetServicesType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
